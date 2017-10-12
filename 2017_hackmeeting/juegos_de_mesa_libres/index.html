@@ -1,0 +1,573 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Juegos de Mesa Libres</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<!-- INIT --- TITULO --->
+				<section>
+					<h1>Juegos de mesa libres</h1>
+					<h2>Analógico y libre</h2>
+					<small>por Netskaven y Miguel</small>
+				</section>
+				<!-- END --- TITULO --->
+				
+				<!-- INIT --- QUE ES UN JUEGO DE MESA --->
+				<section>
+					<h2>¿Qué es un juego de mesa?</h2>
+					<blockquote cite="wikipedia">
+						Juego de mesa es la clasificación que se da a los juegos
+						que constan de un tablero y fichas de diferentes formas y
+						colores, lo que obliga a que se organice sobre una
+						superficie plana, generalmente una mesa, de ahí su nombre.
+					</blockquote>
+					<small>(wikipedia español)</small>
+				</section>
+				<!-- END --- QUE ES UN JUEGO DE MESA --->
+				
+				                <section>
+
+                    <section>
+                        <p>Históricamente, los juegos de mesa han sido un bien
+                        cultural, fruto de las civilizaciones más
+                        florecientes.</p>
+                    </section>
+
+                    <section>
+                        <h3>Senet (3500 a.C.)</h3>
+                        <tr>
+                            <td><img src='mmedia/senet-nefertari.jpg' height='280' /></td>
+                            <td><img src='mmedia/senet-tutankhamon.jpg' height='280' /></td>
+                        </tr>
+                        <ul>
+                            <li>Probablemente el juego más popular del Antiguo
+                            Egipto.</li>
+                            <li>Se le consideraba una representación del sortilegio
+                            17 del Libro de los Muertos. Representa el juicio
+                            de Osiris, la victoria del difunto y su entrada en la 
+                            Duat.</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h3>Juego real de Ur (2600 a.C.)</h3>
+                        <tr>
+                            <td><img src='mmedia/ur-britishm.jpg' height='325' /></td>
+                            <td><img src='mmedia/ur_rules-britishm.jpg' height='325' /></td>
+                        </tr>
+                        <ul>
+                            <li>Primer juego del que se conservan las reglas originales.</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h3>Wei Qi (2200 a.C.)</h3>
+                        <tr>
+                            <td><img src='mmedia/go-partida.jpg' height='300' /></td>
+                            <td><img src='mmedia/go-starwars.jpg' height='300' /></td>
+                        <ul>
+                            <li>Era considerado una de las Cuatro Artes Tradicionales
+                            junto a la música, la caligrafía y la pintura.</li>
+                            <li>La leyenda dice que el emperador Yao encargó que se 
+                            diseñara para enseñar a su hijo disciplina, 
+                            concentración y equilibrio.</li>
+                            <li>El juego más antiguo todavía practicado.</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h3>Patolli (200 a.C.)</h3>
+                        <img src='mmedia/patolli-azteca.jpg' height='300' />
+                        <ul>
+                            <li>Uno de los juegos más antiguos de la América
+                            prehispánica.</li>
+                            <li>Es uno de los primeros ejemplos conocidos de 
+                            juegos de apuestas.</li>
+                            <li>Se le supone un sentido ceremonial y religioso
+                            ya que está muy relacionado con el dios 
+                            Macuilxochitl (musica, danza, juegos).</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h3>Ludus latrunculorum (116 a.C.)</h3>
+                        <tr>
+                            <td><img src='mmedia/petteia-jarron.jpg' height='300' /></td>
+                            <td><img src='mmedia/latrunculli-tablero.jpg' height='300' /></td>
+                        </tr>
+                        <ul>
+                            <li>Practicado en el imperio romano.</li>
+                            <li>Heredero de los "Petteia" griegos y se le 
+                                considera uno de los antecesores del ajedrez.</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h3>Chaturanga (650)</h3>
+                        <tr>
+                            <td><img src='mmedia/chaturanga-krishna_radha.jpg' height='300' /></td>
+                            <td><img src='mmedia/chaturanga-esquema.png' height='300' /></td>
+                        </tr>
+                        <ul>
+                            <li>Se le considera el antecesor común de juegos como el 
+                                ajedrez, el shogi o el xiangpi entre otros.</li>
+                            <li>Existía una variante para jugarse a 4 jugadores.</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h3>Libro de axedrez, dados e tablas (1283)</h3>
+                        <tr>
+                            <td><img src='mmedia/alfonsox.jpg' height='350'/></td>
+                            <td><img src='mmedia/ljuegos.jpg' height='350' /></td>
+                        </tr>
+                        <p><small>Primer tratado occidental de juegos</small></p>
+                    </section>
+
+                    <section>
+                        <h2>Juegos en el siglo XX</h2>
+                    </section>
+
+                    <section>
+                        <h3>The Landlord's Game (1903) - Monopoly (1938)</h3>
+                        <tr>
+                            <td><img src='mmedia/landslore-1903.jpg' height='300' /></td>
+                            <td><img src='mmedia/monopoly-lotr.jpg' height='300'/></td>
+                        </tr>
+                        <ul>
+                            <li>Fué publicado como una demostración al efecto 
+                                negativo de la concentración de terrenos en 
+                                monopolios (Henry George).</li>
+                            <li>Actualmente tiene aproximadamente 2929 
+                                versiones y variantes.</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h3>Lexico (1938) - Scrabble (1948)</h3>
+                        <tr>
+                            <td><img src='mmedia/scrabble-eog2p.jpg' height='300'/></td>
+                            <td><img src='mmedia/scrabble-gpp.jpg' height='300'/></td>
+                        </tr>
+                        <ul>
+                            <li>Disponible en 29 lenguas distintas.</li>
+                            <li>La puntuación de las letras está basada en la
+                                frecuencia de uso y varía de un idioma a otro.</li>
+                            <li>Los partidas de los campeonatos oficiales 
+                                siempre son a dos jugadores.</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h3>Murder (1944) - Cluedo (1949)</h3>
+                        <tr>
+                            <td><img src='mmedia/cluedo-tablero.jpg' height='300'/></td>
+                            <td><img src='mmedia/cluedo-bbt.jpg' height='300'/></td>
+                        </tr>
+                        <ul>
+                            <li>El juego original se creó para ser jugado 
+                            durante los bombardeos sobre Inglaterra durante la
+                            2ª Guerra Mundial.</li>
+                            <li>En su diseño original el juego contaba con 10
+                            sospechosos, 11 habitaciones y nueve armas.</li>
+                            <li>Su nombre es una fusión de los terminos "Clue"
+                            y "Ludo".</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h3>La Conquête du Monde (1957) - Risk (1959)</h3>
+                        <tr>
+                            <td><img src='mmedia/risk-bookshelf.jpg' height='300'/></td>
+                            <td><img src='mmedia/risk-gamethrones01.jpg' height='300' /></td>
+                        </tr>
+                        <ul>
+                            <li>Las fichas en la edición original eran un cubo
+                            de madera (infanteria) y una piramide redondeada del
+                            mismo material (artilleria).</li>
+                            <li>La caballería seria introducida en 1993 junto con
+                            las figuras de plástico.</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h3>Dungeons & Dragons (1974)</h3>
+                        <img src='mmedia/dungdragons-dalmau.jpg' height='300'/>
+                        <ul>
+                            <li>Basado en dos juegos de mesa: "Dungeon" y 
+                                "Dragon".</li>
+                            <li>Es publicado en castellano por primera vez en
+                                1986.</li>
+                            <li>La tercera edición del juego marca la publicación
+                                del primer sistema de juego abierto (d20).
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h3>Trivial Pursuit (1981)</h3>
+                        <tr>
+                            <td><img src='mmedia/trivial-genius.jpg' height='300'/></td>
+                            <td><img src='mmedia/trivial-starwars.jpg' height='300' /></td>
+                        </tr>
+                        <ul>
+                            <li>La versión original contenía 6000 preguntas.</li>
+                            <li>Ha sido traducido a 17 idiomas.</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h3>HeroQuest (1989)</h3>
+                        <tr>
+                            <td><img src='mmedia/heroquest-1992.jpg' height='300'/></td>
+                            <td><img src='mmedia/heroquest-figdados.jpg' height='300' /></td>
+                        </tr>
+                        <ul>
+                            <li>Es un intento de trasladar juegos de rol de 
+                                fantasía al tablero.</li> 
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h3>Magic: The Gathering (1993)</h3>
+                        <tr>
+                            <td><img src='mmedia/magic-1993.jpg' height='300'/></td>
+                            <td><img src='mmedia/magic-dragon.jpg' height='300' /></td>
+                        </tr>
+                        <ul>
+                            <li>Es el padre de los juegos de cartas 
+                            coleccionables (CCG).</li>
+                            <li>Existen más de 17000 cartas distintas.</li>
+                            <li>Es jugado por más de veinte millones de 
+                                jugadores en el mundo.</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h3> Catan (1995)</h3>
+                        <tr>
+                            <td><img src='mmedia/catan-3d.jpg' height='300'/></td>
+                            <td><img src='mmedia/catan-startrek.jpg' height='300' /></td>
+                        </tr>
+                        <ul>
+                            <li>Uno de los juegos que lanzan los eurogames como
+                            fenómeno global.</li>
+                            <li>Ha vendido más de 22 millones de copias, y ha 
+                                sido traducido a 30 idiomas.</li>
+                    </section>
+
+                </section>
+				
+				
+
+                <section>
+
+                    <section><h2>Los juegos de tablero modernos</h2></section>
+
+                    <section>
+                        <h2>Tipos de juegos</h2>
+                        <ul>
+                            <li>Juegos familiares</li>
+                            <ul>
+                                <li>Party Games</li>
+                                <li>Juegos de destreza</li>
+                                <li>Abstractos</li>
+                            </ul>
+                            <li>Juegos para jugones</li>
+                            <ul>
+                                <li>Ameritrash</li>
+                                <li>Eurogames</li>
+                                <li>Wargames</li>
+                                <li>Abstractos</li>
+                            </ul>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h2>Juegos familiares</h2>
+                        <ul>
+                            <li>Juegos de fácil acceso</li>
+                            <li>Reglas sencillas</li>
+                            <li>Orientado a todo tipo de jugadores</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h2>Party Games</h2>
+                        <tr>
+                            <td><img src='mmedia/codenames-mesa.jpg' height='400'/></td>
+                            <td><img src='mmedia/werewolf-unbox.jpg' height='400' /></td>
+                        </tr>
+                        <p><small>Código Secreto - Ultimate Werewolf</small></p>
+                    </section>
+
+                    <section>
+                        <h2>Juego de destreza</h2>
+                        <tr>
+                            <td><img src='mmedia/jenga-empate.jpg' height='350'/></td>
+                            <td><img src='mmedia/junglespeed-unbox.jpg' height='350' /></td>
+                        </tr>
+                        <p><small>Jenga - Jungle Speed</small></p>
+                    </section>
+
+                    <section>
+                        <h2>Juegos para jugones</h2>
+                        <ul>
+                            <li>Reglamentos más complejos.</li>
+                            <li>Mayor implicación al jugarlos.</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h2>Ameritrash</h2>
+                        <ul>
+                            <li>La base del juego es el tema.</li>
+                            <li>Las mecánicas se diseñan en base al tema.</li>
+                            <li>Influencia media-alta de de la suerte.</li>
+                            <li>Interacción directa entre los jugadores.</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h2>Ameritrash</h2>
+                        <tr>
+                            <td><img src='mmedia/descent-barcos.jpg' height='300'/></td>
+                            <td><img src='mmedia/timperium-8p.jpg' height='300' /></td>
+                        </tr>
+                        <p><small>Descent - Twilight Imperium 3ed.</small></p>
+                    </section>
+
+                    <section>
+                        <h2>Eurogames</h2>
+                        <ul>
+                            <li>La base del juego son las mecánicas.</li>
+                            <li>El tema es "pegado".</li>
+                            <li>Mínima influencia de la suerte.</li>
+                            <li>Confrontación indirecta entre jugadores.</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h2>Eurogames</h2>
+                        <tr>
+                            <td><img src='mmedia/agricola-eog2p.jpg' height='320'/></td>
+                            <td><img src='mmedia/powergrid-3p.jpg' height='320' /></td>
+                        </tr>
+                        <p><small>Agricola - Alta Tensión</small></p>
+                    </section>
+
+                    <section>
+                        <h2>Wargames</h2>
+                        <ul>
+                            <li>Juegos muy temáticos, generalmente basados en conflictos.</li>
+                            <li>Mecanicas complejas y muy dependientes del tema.</li>
+                            <li>Influencia moderada de la suerte.</li>
+                            <li>Confrontación directa de los jugadores</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h2>Wargames</h2>
+                        <tr>
+                            <td><img src='mmedia/tdc+wed.jpg' height='350'/></td>
+                            <td><img src='mmedia/trafalgar-demo.jpg' height='350' /></td>
+                        </tr>
+                        <p><small>The Devil's Cauldron - Ships of Line: Trafalgar 1805</small></p>
+                    </section>
+
+                    <section>
+                        <h2>Abstractos</h2>
+                        <ul>
+                            <li>Juegos basados en mecanicas, el tema no importa.</li>
+                            <li>Reglas sencillas con desarrollo profundo.</li>
+                            <li>Muy baja influencia de la suerte.</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h2>Abstractos</h2>
+                        <tr>
+                            <td><img src='mmedia/hive-partida.jpg' height='400'/></td>
+                            <td><img src='mmedia/yinsh-despliegue.jpg' height='400' /></td>
+                        </tr>
+                        <p><small>Hive - YINSH</small></p>
+                    </section>
+
+                    <section>
+                        <h2>Otros Juegos</h2>
+                    </section>
+
+                    <section>
+                        <h2>Juegos de cartas</h2>
+                        <tr>
+                            <td><img src='mmedia/1936gc-partida.jpg' height='330'/></td>
+                            <td><img src='mmedia/netrunner-tapete.jpg' height='330' /></td>
+                        </tr>
+                        <p><small>1936:Guerra Civil - Android: Netrunner</small></p>
+                    </section>
+
+                    <section>
+                        <h2>Juegos de dados</h2>
+                        <tr>
+                            <td><img src='mmedia/yahtzee-unbox.jpg' height='350'/></td>
+                            <td><img src='mmedia/ddaydice-gip.jpg' height='350' /></td>
+                        </tr>
+                        <p><small>Yahtzee - D-Day Dice</small></p>
+                    </section>
+
+                    <section>
+                        <h2>Sistemas genéricos</h2>
+                        <tr>
+                            <td><img src='mmedia/icehouse-set.jpg' height='350'/></td>
+                            <td><img src='mmedia/decktet-set.jpg' height='350' /></td>
+                        </tr>
+                        <p><small>Icehouse - Decktet</small></p>
+                    </section>
+
+                    <section>
+                        <h2>Juegos P&P</h2>
+                        <tr>
+                            <td><img src='mmedia/zaibatsu-gibson.jpg' height='300'/></td>
+                            <td><img src='mmedia/8bitinv-redesign.jpg' height='300' /></td>
+                        </tr>
+                        <p><small>Zaibatsu - 8-bit Invaders</small></p>
+                    </section>
+
+                </section>
+                
+                <section>
+					<section>
+						<h2>Licencias de los juegos de mesa</h2>
+						<p>...abogadooooo....</p>
+					</section>
+					<section>
+						<h2>Dominio público</h2>
+						<img src='mmedia/go.png' height='300' />
+						<p>Go - Baduk - Weiqui 500 A.C.</p>
+					</section>
+					<section>
+						<h2>Copyright</h2>
+						<img src='mmedia/monopoly_old.png' height='300' />
+						<p>Monopoly 1903 (creado), 1935 (registrado)</p>
+					</section>
+					<section>
+						<h2>Desconocida</h2>
+						<img src='mmedia/mil_cartas_blanco.png' height='300' />
+						<p>1000 cartas blancas</p>
+						<p><small>(descubrí que era dominio público desde 1990)</small></p>
+					</section>
+					<section>
+						<h2>Libre (CC "algo" u otras)</h2>
+						<img src='mmedia/star_c.png' height='300' />
+						<p>Star Conquest 2010 CC by-nc-sa</p>
+					</section>
+                </section>
+                
+				<section>
+					<section>
+						<h2>DIY juegos de mesa</h2>
+						<img src='mmedia/tres_en_raya.jpg' height='300' />
+					</section>
+					<section>
+						<h2>Copyright -> Pirateo</h2>
+						<img src='mmedia/colonos3d.png' height='300' />
+						<p>Curioso caso de "Los colonos de catan"<br />
+						Legal las fichas 3D<br />
+						Ilegal el reglamento</p>
+					</section>
+					<section>
+						<h2>DIY (Bricolage)</h2>
+						<img src='mmedia/diy.png' height='300' />
+					</section>
+					<section>
+						<h2>Impresoras 3D</h2>
+						<img src='mmedia/impresoras3d.png' height='300' />
+					</section>
+					<section>
+						<h2>Print & Play</h2>
+						<img src='mmedia/print.png' height='300' />
+					</section>
+				</section>
+				
+				<section>
+					<section>
+						<h2>Se puede ganar el pan con los juegos de mesa libres</h2>
+						<ul>
+							<li>http://laitineranteludotecamutante.blogspot.com.es/</li>
+							<li>http://www.nestorgames.com/</li>
+						</ul>
+					</section>
+				</section>
+				
+				<section>
+					<section>
+						<h2>Sistemas de juegos</h2>
+						<p>
+							Material y motor para tus juegos de mesa.
+						</p>
+					</section>
+					<section>
+						<h2>Icehouse (PROPIETARIO)</h2>
+						<img src='mmedia/icehouse.jpg' height='300' />
+					</section>
+					<section>
+						<h2>Decktet (CC by-nc-sa)</h2>
+						<img src='mmedia/decktet.jpg' height='300' />
+						<p>https://www.decktet.com/</p>
+					</section>
+					<section>
+						<h2>Piecepack (Dominio público)</h2>
+						<img src='mmedia/piecepack.jpg' height='300' />
+						<p>https://en.wikipedia.org/wiki/Piecepack</p>
+					</section>
+					<section>
+						<h2>Shibumi (Propietario)</h2>
+						<img src='mmedia/Shibumi.jpg' height='300' />
+					</section>
+				</section>
+				
+				<section>
+					<h3> ¿Jugamos?</h3>
+					<img src='mmedia/a_jugar.png' />
+				</section>
+				
+			</div>
+		</div>
+		
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
